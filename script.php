@@ -11,11 +11,6 @@
       }
   }
 
-  class Product{
-      public $title;
-      public $price;
-  }
-
   class UserSpecial extends User{
       public $premium;
 
@@ -32,4 +27,18 @@
      }
   }
 
+  class Product{
+    public $title;
+    public $price;
+  }
+
+  $premium_client = new  User()
+  $premium_client->$name = 'Giorgio';
+  $premium_client->$mail = 'gmazzon25@gmail.com';
+  $premium_client->$sconto = setSconto(true)
+
+  $premium_client = new  User()
+  $premium_client->$name = 'Antonio';
+  $premium_client->$mail = 'amazzon74@gmail.com';
+  $premium_client->$sconto = setSconto(false)
 ?>
