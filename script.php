@@ -5,7 +5,7 @@
       public $sconto = 0;
 
       public function setSconto($premium){
-         if($premium === true) {
+         if($premium === false) {
              $this->sconto = 15;
          }
       }
@@ -27,7 +27,7 @@
         if($premium === true) {
             $this->sconto = 50;
         }else {
-            $this->sconto = $this->livello *10;
+            $this->sconto = $this->livello = false;
         }
      }
   }
